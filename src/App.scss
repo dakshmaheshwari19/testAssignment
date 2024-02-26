@@ -1,0 +1,32 @@
+@import "./assets/scss/var";
+@import "./assets/scss/header" ;
+@import "./assets/scss/mainContainer" ;
+@import "./assets/scss/product" ;
+@import "./assets/scss/suggested" ;
+@import "./assets/scss/footer" ;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    a{
+        text-decoration: none;
+        
+    }
+    input{
+        width: 100%;
+        height:100%;
+        padding:0px 15px;
+        color:$para-color;
+        outline: none;
+        border: none;
+        &:focus{
+            outline: none;
+            border: none;
+        }
+    }
+    body {
+        font-family: "Inter";
+        background-color: $bg-color;
+      }
+}
+
