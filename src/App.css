@@ -529,7 +529,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px 50px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   background-color: #1B88F4;
   border-radius: 15px;
   color: #FFFFFF;
@@ -1011,6 +1011,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+* body::-webkit-scrollbar {
+  display: block;
+  height: 6px;
+  scrollbar-width: thin;
+}
+* body::-webkit-scrollbar-track {
+  background-color: #FBFCFD;
+}
+* body::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.7098039216);
+  border-radius: 10px;
+}
+* body::-webkit-scrollbar-thumb:hover {
+  background-color: #8f8f8f;
 }
 * a {
   text-decoration: none;
