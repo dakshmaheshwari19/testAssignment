@@ -172,4 +172,19 @@ cursor: pointer;
         padding: 25px 5%;
     }
 }
+@media(max-width:500px){
+    .signup-section{
+        flex-direction: column;
+        padding: 30px 0px;
+
+        .text{
+            width:100%;
+        }
+        .signupBox{
+            width: 100%;
+        
+            
+        }
+    }
+}
 
