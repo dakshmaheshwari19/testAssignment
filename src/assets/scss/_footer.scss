@@ -35,3 +35,40 @@
         }
     }
 }
+@media(max-width:700px){
+    
+    .footerContainer{
+        font-size: 0.8rem;
+        .item{
+            font-size: 0.7rem;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+    
+}
+@media(max-width:550px){
+    
+    .footerContainer{
+        font-size: 0.7rem;
+        .item{
+            font-size: 0.6rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    
+}
+@media(max-width:480px){
+    
+    .footerContainer{
+        padding: 20px 20px;
+        font-size: 0.6rem;
+        .item{
+            font-size: 0.5rem;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+    
+}
