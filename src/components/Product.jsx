@@ -31,10 +31,10 @@ export const Product = (props) => {
                     </div>
                 </div>
                 <div className="block-2">
-                    <div style={{paddingBottom:"10px",fontWeight:"400"}}>
+                    <div className="title" >
                         <b>{props.product.title}</b>- {props.product.description}
                     </div>
-                    <b style={{ color: "#2C384A" }}>Main Highlights</b>
+                    <b id="highlights" style={{ color: "#2C384A" }}>Main Highlights</b>
                     {!showMore ?
                         (<div className='highlights'>
                             {props.product.highlights}

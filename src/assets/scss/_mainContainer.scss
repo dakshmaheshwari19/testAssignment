@@ -229,7 +229,7 @@ cursor: pointer;
         font-size: 0.5rem;
     }
     .main-container{
-        padding: 10px 5%;
+        padding: 10px 3%;
     }
     .main-heading{
         font-size: 1.30rem;
@@ -243,11 +243,14 @@ cursor: pointer;
         flex-direction: column;
         padding: 30px 0px;
 
+
         .text{
-            width:100%;
+            width:90%;
+            line-height: 25px;
+            padding-bottom: 5px;
         }
         .signupBox{
-            width: 100%;
+            width: 90%;
         
             
         }
@@ -255,6 +258,9 @@ cursor: pointer;
 }
 
 @media(max-width:350px){
+    .main-container{
+        padding: 10px 2%;
+    }
     .route{
         padding: 5px;
     word-spacing: 2px;
