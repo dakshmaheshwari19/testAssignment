@@ -41,7 +41,7 @@ export const MainContainer = () => {
                         })
                     }
                 </div>
-                <div className="main-heading" style={{ fontSize: "1.8rem" }}>
+                <div className="sub-heading">
                     Related deals you might like for
                 </div>
                 <div className="relatedProducts">
