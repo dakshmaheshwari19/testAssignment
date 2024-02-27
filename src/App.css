@@ -535,6 +535,7 @@
   color: #FFFFFF;
   transform-origin: center;
   border: 2px solid #FBFCFD;
+  cursor: pointer;
 }
 .block-3 .view-btn:hover {
   border: 2px solid #1B88F4;
@@ -850,6 +851,7 @@
   border-radius: 10px;
   color: #FFFFFF;
   border: 2px solid #FBFCFD;
+  cursor: pointer;
 }
 .suggested-card .view-btn:hover {
   border: 2px solid #1B88F4;
